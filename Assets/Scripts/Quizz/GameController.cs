@@ -100,7 +100,7 @@ public class GameController : MonoBehaviour
         SceneManager.LoadScene("MenuScreen");
     }
 
-    private void UpdateTimeRemainingDispaly()
+    private void UpdateTimeRemainingDisplay()
     {
         timeRemainingDisplayText.text = "Time: " + Mathf.Round(timeRemaining).ToString(); 
     }
@@ -110,7 +110,7 @@ public class GameController : MonoBehaviour
         if (isRoundActive)
         {
             timeRemaining -= Time.deltaTime;
-            UpdateTimeRemainingDispaly();
+            UpdateTimeRemainingDisplay();
         }
         if (timeRemaining < 0f)
         {

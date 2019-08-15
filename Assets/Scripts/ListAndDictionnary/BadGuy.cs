@@ -1,8 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using System;
 
-public class BadGuy
+public class BadGuy : IComparable<BadGuy>
 {
     public string name;
     public int power;

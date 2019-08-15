@@ -5,7 +5,7 @@ public class DataController : MonoBehaviour
 {
     private RoundData[] allRoundData;
     private PlayerProgress playerProgress;
-    private string gameDataFileName = "data.json";
+    private string gameDataFileName = "Quizz/data.json";
 
     // Start is called before the first frame update
     void Start()

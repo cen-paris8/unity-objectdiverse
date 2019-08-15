@@ -6,11 +6,12 @@ public class SomeClass : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        List<BadGuy> badGuys = new List<BadGuy>();
-
-        badGuys.Add(new BadGuy("Harvey", 50));
-        badGuys.Add(new BadGuy("Magneto", 100));
-        badGuys.Add(new BadGuy("Pip", 5));
+        List<BadGuy> badGuys = new List<BadGuy>
+        {
+            new BadGuy("Harvey", 50),
+            new BadGuy("Magneto", 100),
+            new BadGuy("Pip", 5)
+        };
 
         badGuys.Sort();     //Call CompareTo function 
 

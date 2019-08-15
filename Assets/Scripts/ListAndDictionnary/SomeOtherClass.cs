@@ -1,9 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class SomeOtherClass : MonoBehaviour
 {
+    public string value = "birds";
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,13 +18,15 @@ public class SomeOtherClass : MonoBehaviour
 
         BadGuy temp = null;
 
-        if (badGuys.TryGetValue("birds", out temp))
+        if (badGuys.TryGetValue(value, out temp))
         {
             //success
+            print("Find value" + temp.power + " " + temp.name);
         }
         else
         {
             //failed
+            print("not found");
         }
     }
 

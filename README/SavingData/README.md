@@ -21,4 +21,4 @@ Object schema :
 
 Result :
 
-![GitHub Logo](schemaResult.png)
+![GitHub Logo](Result.png)

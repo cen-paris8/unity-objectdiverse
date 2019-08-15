@@ -4,7 +4,7 @@
 
 - <a href="./README/Swipe/">Swipe</a>
 View:
-![GitHub Logo](./README/Swipe/schemaResult.png)
+![GitHub Logo](README/Swipe/schemaResult.png)
 <hr/>
 - <a href="./README/Quizz/">Quizz</a>
 View:

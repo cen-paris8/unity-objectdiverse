@@ -13,7 +13,7 @@ A pooling object to reuse
 
 Object schema :
 
-![GitHub Logo](schemaObject.png)
+![GitHub Logo](SchemaObject.png)
 
 <hr/>
 

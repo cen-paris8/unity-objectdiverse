@@ -12,7 +12,7 @@ Version Swipe generic with a controler script
 
 Object schema :
 
-![GitHub Logo](schemaObject.png)
+![GitHub Logo](SchemaObject.png)
 
 <hr/>
 

@@ -16,7 +16,7 @@ Scene dependance: Persistent scene load MenuScreen which load Game
 
 Object schema :
 
-![GitHub Logo](schemaObject.png)
+![GitHub Logo](SchemaObject.png)
 
 <hr/>
 

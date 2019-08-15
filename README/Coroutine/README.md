@@ -12,7 +12,7 @@ Describe a simple implementation of coroutine using IEnumerator interface
 
 Object schema :
 
-![GitHub Logo](schemaObject.png)
+![GitHub Logo](SchemaObject.png)
 
 <hr/>
 

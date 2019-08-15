@@ -15,7 +15,7 @@ You need :
 
 Object schema :
 
-![GitHub Logo](schemaObject.png)
+![GitHub Logo](SchemaObject.png)
 
 <hr/>
 

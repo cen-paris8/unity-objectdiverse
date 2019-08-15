@@ -12,7 +12,7 @@ Description of Dictionnary<>
 
 Object schema :
 
-![GitHub Logo](schemaObject.png)
+![GitHub Logo](SchemaObject.png)
 
 <hr/>
 

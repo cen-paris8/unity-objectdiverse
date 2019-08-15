@@ -13,9 +13,12 @@ You need :
 - Singleton DontDestroyOnLoad()
 - BinaryFormatter
 
+Object schema :
 
 ![GitHub Logo](schemaObject.png)
 
-<hr/>;
+<hr/>
+
+Result :
 
 ![GitHub Logo](schemaResult.png)

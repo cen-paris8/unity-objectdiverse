@@ -12,17 +12,26 @@ EditorBuildSettings:
     path: Assets/Scenes/Dragon2D/DragonScene.unity
     guid: 52c6b6a9db9f5f948b9eb004b53d0c30
   - enabled: 1
-    path: Assets/Scenes/Quizz/MenuScreen.unity
-    guid: 35fef0bb7505dc844bedeeb2e2d6998c
-  - enabled: 1
-    path: Assets/Scenes/Quizz/Game.unity
-    guid: b4937236614e4b942824ef688f89770d
-  - enabled: 1
     path: Assets/Scenes/Quizz/Persistent.unity
     guid: 4f7473b93dca6894c931130625988a62
   - enabled: 1
     path: Assets/Scenes/SavingData/SavingData1.unity
     guid: cbcaa700341aa7e4aaca789aefc67880
+  - enabled: 1
+    path: Assets/Scenes/Coroutine/Coroutine.unity
+    guid: 013976fa45832d34b96ebacd3a649da1
+  - enabled: 1
+    path: Assets/Scenes/Presentation/Presentation.unity
+    guid: 21bde3d8ece95494d8668a210a1332e1
+  - enabled: 1
+    path: Assets/Scenes/Pool/Pool.unity
+    guid: f420eb39eadda5c499592f46c7ad4f85
+  - enabled: 1
+    path: Assets/Scenes/Quizz/Game.unity
+    guid: b4937236614e4b942824ef688f89770d
+  - enabled: 1
+    path: Assets/Scenes/Quizz/MenuScreen.unity
+    guid: 35fef0bb7505dc844bedeeb2e2d6998c
   - enabled: 1
     path: Assets/Scenes/SavingData/SavingData2.unity
     guid: 65fa475d4c1c90b4aa8ce00b0506f6c2

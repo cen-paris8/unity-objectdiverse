@@ -17,7 +17,7 @@ public class PersistentScript : MonoBehaviour
     {
         if (control == null)
         {
-            DontDestroyOnLoad(gameObject);
+           // DontDestroyOnLoad(gameObject); => Replace by BinaryFormatter
             control = this;
         }
         else

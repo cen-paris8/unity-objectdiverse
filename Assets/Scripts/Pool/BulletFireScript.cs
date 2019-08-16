@@ -22,4 +22,9 @@ public class BulletFireScript : MonoBehaviour
         obj.SetActive(true);
 
     }
+
+    public void OnClickStop()
+    {
+        CancelInvoke();
+    }
 }

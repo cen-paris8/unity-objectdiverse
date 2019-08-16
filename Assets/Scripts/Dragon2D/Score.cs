@@ -23,9 +23,11 @@ public class Score : GenericSingletonClass<Score>
     // Obj : Show score on InputFiel of Canvas
     public void ShowScore()
     {
+
         string value = ScoreValue.ToString();
         string valueMax = PlayerPrefs.GetInt("Score", 0).ToString();
-        IFvar.text = value + "    / Max:  " + valueMax;
+        //IFvar.text = value + "    / Max:  " + valueMax;
+        //TO DO manage score by an other way.
         
     }
 

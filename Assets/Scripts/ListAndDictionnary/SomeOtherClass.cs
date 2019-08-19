@@ -17,6 +17,8 @@ public class SomeOtherClass : MonoBehaviour
         badGuys.Add("mutant", bg2);
 
         BadGuy temp = null;
+        /// If you don't know the key, and need a default value
+        //badGuys.ElementAt(0);
 
         if (badGuys.TryGetValue(value, out temp))
         {

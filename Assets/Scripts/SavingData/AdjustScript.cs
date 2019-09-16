@@ -14,6 +14,7 @@ public class AdjustScript : MonoBehaviour
         }
         if (GUI.Button(new Rect(10, 200, 100, 30), "Experience Up"))
         {
+            GUIStyle gUIStyle = GUI.skin.GetStyle("Label");
             PersistentScript.control.experience += 10;
         }
         if (GUI.Button(new Rect(10, 250, 100, 30), "Experience Up"))

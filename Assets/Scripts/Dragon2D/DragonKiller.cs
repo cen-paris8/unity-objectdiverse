@@ -17,16 +17,19 @@ public class DragonKiller : MonoBehaviour
     {
         if( transform.position.y > 10)
         {
+            Score.Instance.ScoreValue = 0;
             SceneManager.LoadScene("DragonScene");
         }
         if (transform.position.y < -10)
         {
+            Score.Instance.ScoreValue = 0;
             SceneManager.LoadScene("DragonScene");
         }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        Score.Instance.ScoreValue = 0;
         SceneManager.LoadScene("DragonScene");
     }
 }

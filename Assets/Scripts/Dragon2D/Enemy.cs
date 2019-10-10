@@ -9,8 +9,8 @@ public class Enemy : MonoBehaviour
     public void ManageScore()
     {
         Score.Instance.AddScore(1);
-        Score.Instance.ShowScore();
-        Score.Instance.SaveScore();
+        //Score.Instance.ShowScore();
+        //Score.Instance.SaveScore();
     }
 
     public void Die()

@@ -1,23 +1,33 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using System;
 
 
 public class Score : GenericSingletonClass<Score>
 {
-    // Attached : GO Background()
-    // Obj : Manage score player
-
-    public InputField IFvar;
-
     public int ScoreValue;
 
     public int MaxScore;
+    public void Start()
+    {
+        ScoreValue = 0;
+    }
 
     // Obj : Add 1 when red dragon die
     public void AddScore(int nb)
     {
+        // System.Int32.TryParse(IFvar.text, out ScoreValue);
+
+        //int x = Int32.Parse(IFvar.text);
+
         if (nb > 0)
             ScoreValue += nb;
+
+        string value = ScoreValue.ToString();
+
+        Debug.Log("ScoreValue: " + ScoreValue);
+        Debug.Log("value: " + value);
+
     }
 
     // Obj : Show score on InputFiel of Canvas
@@ -26,9 +36,11 @@ public class Score : GenericSingletonClass<Score>
 
         string value = ScoreValue.ToString();
         string valueMax = PlayerPrefs.GetInt("Score", 0).ToString();
+        //IFvar.text = value;
+        
         //IFvar.text = value + "    / Max:  " + valueMax;
         //TO DO manage score by an other way.
-        
+
     }
 
     // Obj : Save score in PlayerPrefs 

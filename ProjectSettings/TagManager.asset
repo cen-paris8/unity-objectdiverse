@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - NextSceneBtn
+  - Background
+  - Button
+  - Score
   layers:
   - Default
   - TransparentFX

@@ -10,7 +10,6 @@ public class ShowScore : MonoBehaviour
     }
     private void Update()
     {
-        Debug.Log("resultat: " + scoreValue);
         GetComponent<Text>().text = scoreValue.ToString();
     }
 }

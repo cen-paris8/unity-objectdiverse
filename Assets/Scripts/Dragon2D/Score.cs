@@ -27,7 +27,7 @@ public class Score : GenericSingletonClass<Score>
 
         Debug.Log("ScoreValue: " + ScoreValue);
         Debug.Log("value: " + value);
-
+        GameObject.FindGameObjectWithTag("Score").GetComponentInChildren<Text>().text = value;
     }
 
     // Obj : Show score on InputFiel of Canvas
